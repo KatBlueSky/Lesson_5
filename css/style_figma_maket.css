@@ -1,0 +1,88 @@
+/* &display=swap */
+
+/* Подключаею обнуляющий стиль*/
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@100;400;700;900&display=swap");
+
+body {
+    font-family: "Lato", Arial, serif;
+    font-size: 16px;
+    color: rgba(66, 69, 81, 1);
+}
+
+.wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 100%;
+    max-width: 810px;
+}
+
+a {
+    color: rgb(165, 165, 165, 0.5);
+    font-size: 14px;
+}
+h1 {
+    font-size: 46px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 130%;
+    color: rgba(30, 33, 44, 1);
+    margin: 60px auto;
+    border: 1px solid #424551;
+}
+
+.block-foto {
+    margin: 0 0 60px 0;
+}
+
+.block-text-bold {
+    font-size: 20px;
+    color: rgba(30, 33, 44, 1);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 0px 0px 24px 0px;
+    border: 1px solid #424551;
+}
+
+.block-text-normal {
+    font-style: normal;
+    line-height: 160%;
+    color: #424551;
+    font-style: normal;
+    font-weight: 400;
+    border: 1px solid #424551;
+    margin: 0px 0px 48px 0px;
+}
+.text {
+    padding: 0px 0px 24px 0px;
+}
+
+.block-2-text-bold {
+    border: 1px solid #424551;
+    padding: 0px 0px 0px 45px;
+    margin: 0px 0px 48px 0px;
+}
+
+.text-bold {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: rgba(30, 33, 44, 1);
+}
+
+.text-list {
+    margin: 0px 0px 24px 0px;
+    line-height: 160%;
+    border: 1px solid #424551;
+}
+
+.list {
+    padding: 0px 0px 0px 30px;
+    margin: 0 0 24px 0px;
+    /* из Figma  line-height 25.6/16px*/
+    text-indent: 30px;
+    line-height: 1.6;
+}

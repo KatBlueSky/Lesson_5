@@ -1,0 +1,532 @@
+/* &display=swap */
+@import "null.css";
+/* ================================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+.container {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+body {
+	font-size: 20px;
+	font-family: serif;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	color: rgb(65, 64, 64);
+}
+
+.title {
+	font-size: 65px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	letter-spacing: 15px;
+	text-align: center;
+	color: rgb(66, 75, 83);
+	/* Пример с внутреним отступом */
+	/* padding: 50px; */
+	/* padding: 50px; */
+	margin: 50px 0px 50px 50px;
+	border: 2px solid rgb(0, 0, 0);
+	padding: 0px 20px;
+}
+
+.title-text {
+	max-width: 700px;
+	text-align: center;
+	/* Хочу прибить этот блок к правой строне!!! */
+	margin: 0 0 0 auto;
+	border: 2px solid rgb(218, 69, 69);
+}
+
+.title-text-1 {
+	margin: 0px 0px 10px;
+	font-size: 35px;
+	font-style: italic;
+	color: rgb(46, 57, 66);
+	border: 2px solid rgb(129, 218, 69);
+}
+
+.title-text-2 {
+	margin: 0px 0px 50px;
+	/* padding: 0px 35px; */
+	font-size: 30px;
+	text-shadow: 1px 2px 5px #ec94d2;
+	color: rgba(46, 56, 65, 0.2);
+	border: 2px solid rgb(216, 53, 238);
+	/* background-color: rgb(240, 173, 209); */
+	/* Просто эксперименты с высотой*/
+	/* min-height: 50px; */
+}
+
+/* Хочу сделать лесинку из меню и в центре!!! */
+.text-lego-list {
+	margin: 0px 0px 50px 0px;
+	border: 2px solid rgb(129, 218, 69);
+	max-width: 800px;
+	font-size: 30px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+/* В каждом пункте меню ссылка на текст или блок. Успользую mrgin чтобы сделать отступы!!!*/
+.title-lego-1 {
+	border: 2px solid rgb(33, 104, 185);
+	color: rgb(233, 158, 45);
+	margin: 0px 0px 10px 0px;
+}
+.title-lego-2 {
+	color: #bb68bb;
+	margin: 0px 0px 10px 50px;
+	border: 2px solid rgb(33, 104, 185);
+}
+.title-lego-3 {
+	color: #44cac4;
+	margin: 0px 0px 10px 100px;
+	border: 2px solid rgb(33, 104, 185);
+}
+.title-lego-4 {
+	color: #e0e27e;
+	margin: 0px 0px 10px 150px;
+	border: 2px solid rgb(33, 104, 185);
+}
+.title-lego-5 {
+	color: rgb(233, 158, 45);
+	margin: 0px 0px 10px 200px;
+	border: 2px solid rgb(33, 104, 185);
+}
+.title-lego-6 {
+	color: #bb68bb;
+	margin: 0px 0px 10px 250px;
+	border: 2px solid rgb(33, 104, 185);
+}
+.title-lego-7 {
+	color: #44cac4;
+	margin: 0px 0px 10px 300px;
+	border: 2px solid rgb(33, 104, 185);
+}
+.title-lego-8 {
+	color: #e0e27e;
+	border: 2px solid rgb(33, 104, 185);
+	/*  В последнем пункте меню прописла margin-botton!!! */
+	margin: 0px 0px 0px 350px;
+}
+
+.image-header {
+	border: 2px solid rgb(1, 90, 60);
+	margin: 0 0 50px 0;
+	max-width: 1230px;
+	/* Эксперимент влияние padding на картинку */
+	/* padding: 0px 0px 30px 0px; */
+}
+
+.lego-block {
+	margin: 0px 0px 50px 0px;
+	border: 2px solid rgb(1, 90, 60);
+	font-size: 28px;
+	line-height: 1.25;
+	text-align: justify;
+}
+
+.lego-group {
+	margin: 0px 0px 50px 0px;
+}
+
+.lego-block a {
+	font-size: 28px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	line-height: 1.25;
+}
+
+.cards-about-lego {
+	margin: 0px 0px 50px 0px;
+}
+
+.card-1 {
+	border: 2px solid rgb(157, 19, 199);
+	line-height: 1.25;
+	text-align: justify;
+	margin: 0px 730px 0px 0px;
+	padding: 30px 20px 30px 20px;
+	max-width: 500px;
+	background-color: #e2927e;
+}
+
+.card-2 {
+	line-height: 1.25;
+	text-align: justify;
+	margin: -30px 500px 0px 230px;
+	padding: 30px 20px 30px 20px;
+	max-width: 500px;
+	/* !!!!Оставила специально выстоту 200 px!!! */
+	max-height: 200px;
+	background-color: #dee9b0;
+	/* !!!!Поставила overflow очень много теста!!! */
+	overflow: scroll;
+}
+.card-3 {
+	line-height: 1.25;
+	text-align: justify;
+	margin: 0 auto;
+	padding: 30px 20px 30px 20px;
+	max-width: 500px;
+	background-color: rgb(128, 206, 206);
+}
+.card-4 {
+	line-height: 1.25;
+	text-align: justify;
+	margin: -30px 230px 0px 500px;
+	padding: 30px 20px 30px 20px;
+	max-width: 500px;
+	background-color: #93e779;
+}
+.card-5 {
+	line-height: 1.25;
+	text-align: justify;
+	margin: -30px 0px 0px 730px;
+	padding: 30px 20px 30px 20px;
+	max-width: 500px;
+	/* !!!!Оставила специально выстоту 200 px!!! */
+	max-height: 200px;
+	background-color: #c888f3;
+	/* !!!!Поставила overflow очень много теста!!! */
+	overflow: auto;
+	border: 2px solid rgb(1, 90, 60);
+}
+.card-5-foto {
+	/* !!!! Поставила картинку в карточку, отцентровала и отделила padding!!! */
+	margin: 0 auto;
+	padding: 15px 0px 0px;
+	width: 440px;
+}
+.card-4 mark {
+	font-weight: 700;
+	color: cadetblue;
+}
+.text-5 span {
+	font-weight: 700;
+}
+
+.lego-group {
+	max-width: 600px;
+	line-height: 1.25;
+	margin: 0px 0px 50px 0px;
+	border: 2px solid rgb(1, 90, 60);
+	padding: 30px 20px;
+	text-align: justify;
+}
+.lego-group span {
+	font-weight: 700;
+}
+.lego-group-list {
+	padding: 0px 0px 15px 30px;
+	font-style: italic;
+}
+/*Отцентровка фото */
+.lego-group-foto {
+	padding-top: 20px;
+	max-width: 100%;
+}
+
+.lego-serias {
+	border: 2px solid rgb(130, 22, 163);
+	max-width: 850px;
+	display: inline-block;
+	padding: 20px 30px;
+	margin: 0px 0px 50px 0px;
+	line-height: 1.25;
+	text-align: justify;
+	/* !!!!Поставила overflow очень много теста!!! */
+	overflow: hidden;
+}
+
+.block-text-lego-serias {
+	/* Для эксперимента специально заехеле наверх!!! */
+	margin: -100px 0px 0px 0px;
+	font-size: 25px;
+	max-height: 500px;
+	overflow: hidden;
+}
+
+.text-lego-serias {
+	color: #d42f2f;
+}
+.list-lego-group-serias {
+	font-style: italic;
+	padding: 0px 0px 0px 30px;
+}
+.lego-serias span {
+	font-weight: 700;
+}
+.lego-seria-foto {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.content-lego-feature {
+	margin: 0px 0px 50px 0px;
+	padding: 30px;
+	box-shadow: 2px 2px 10px #c888f3;
+}
+
+.title-lego-feature {
+	margin: 0px 0px 30px 0px;
+	font-size: 30px;
+	color: #bb68bb;
+	text-decoration: underline;
+	text-align: center;
+	letter-spacing: 2px;
+}
+.text-lego-feature-1,
+.text-lego-feature-2,
+.text-lego-feature-3,
+.text-lego-feature-4,
+.text-lego-feature-5 {
+	padding: 0px 0px 20px 0px;
+}
+
+.content-little-lego {
+	border: 2px solid rgb(179, 57, 20);
+	margin: 0px 0px 50px 0px;
+	padding: 30px 20px;
+}
+
+.title-little-lego {
+	margin: 0px 0px 30px 0px;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.block-little-lego-text {
+	margin: 0 auto;
+	text-align: justify;
+	line-height: 1.25;
+}
+
+.little-lego-text-1,
+.little-lego-text-2,
+.little-lego-text-3,
+.little-lego-text-4 {
+	padding: 0px 0px 20px 0px;
+}
+.little-lego-text a {
+	font-weight: 700;
+}
+.block-little-lego-foto {
+	margin: 0 auto;
+	max-height: 300px;
+	overflow: scroll;
+	/*  Убераю фонтамнные отступы между картинками в блоке */
+	font-size: 0;
+}
+.foto-little-lego {
+	/*   Убераю отступы между картинками!!  */
+	font-size: 30px;
+	background-color: #54f7e9;
+	padding: 20px;
+	max-width: 580px;
+}
+
+.content-lego-heroes {
+	border: 2px solid rgb(4, 87, 38);
+	margin: 0px 0px 50px 0px;
+	padding: 30px 20px;
+}
+
+.block-lego-heroes {
+	max-width: 500px;
+	max-height: 300px;
+	line-height: 1.25;
+	overflow: hidden;
+}
+
+.title-lego-heroes {
+	padding: 0px 0px 30px 0px;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.text-lego-heroes {
+	text-align: justify;
+	line-height: 1.25;
+}
+
+.lego-herou-foto {
+	display: inline-block;
+	padding: 20px 0px 0px 0px;
+	max-width: 500px;
+}
+
+.content-princess-lego {
+	margin: 0px 0px 50px 0px;
+	border: 2px solid rgb(9, 143, 177);
+}
+
+.title-princess-lego {
+	background-color: #ffff;
+	box-shadow: 2px 2px 5px #bb68bb;
+	color: #c888f3;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0 auto;
+	padding: 25px 0px;
+}
+
+.block-princess {
+	border: 2px solid rgb(179, 57, 20);
+	text-align: justify;
+	line-height: 1.25;
+}
+
+.block-princess-1,
+.block-princess-2,
+.block-princess-3 {
+	max-width: 600px;
+	border: 2px solid rgb(14, 138, 191);
+	padding: 20px;
+}
+
+.princess-lego-foto-1,
+.princess-lego-foto-2,
+.princess-lego-foto-3 {
+	border: 2px solid rgb(119, 183, 9);
+	/* padding: 20px 0px 0px 0px; */
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px 0px 0px 0px;
+}
+
+.princess-lego-foto-2 {
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+.content-lego-ninja {
+	margin: 0px 0px 50px 0px;
+	line-height: 1.25;
+	text-align: justify;
+	/* border: 2px solid rgb(9, 143, 177); */
+}
+
+.title-lego-ninja {
+	/* border: 2px solid rgb(40, 110, 13); */
+	padding: 30px 0px 20px 0px;
+	margin: 0 auto;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.block-lego-ninja {
+	/* border: 2px solid rgb(184, 12, 161); */
+	padding: 30px 20px;
+	max-width: 900px;
+}
+
+.lego-ninja-text-2 {
+	padding: 20px 0px 20px 0px;
+}
+
+.lego-ninja-foto-2 {
+	margin-top: 50px;
+}
+
+.lego-ninja-foto-1,
+.lego-ninja-foto-2 {
+	max-width: 490px;
+}
+
+/* Здесь делаю строчные елементы блочными и наоборот*/
+.content-shops {
+	/* border: 2px solid rgb(97, 13, 86); */
+	margin: 0px 0px 50px 0px;
+	padding: 30px 0px 20px 0px;
+}
+.title-shops {
+	/* border: 2px solid rgb(192, 132, 1); */
+	padding: 0px 0px 30px 0px;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.shop1,
+.shop2,
+.shop3,
+.shop4,
+.shop5 {
+	margin: 0 auto;
+	padding: 0px 30px 0px 10px;
+	/* border: 2px solid rgb(29, 90, 5); */
+	display: inline-block;
+	text-align: center;
+	width: 240px;
+	background-color: #b980df;
+	font-size: 20px;
+}
+
+.content-button {
+	/* border: 2px solid rgb(127, 221, 90); */
+	margin: 0px 0px 100px 0px;
+	color: rgb(180, 180, 180);
+	font-size: 20px;
+	max-width: 100%;
+}
+.content-button span {
+	font-weight: 700;
+}
+
+.inline-facebook {
+	display: inline-block;
+	background-color: #bb68bb;
+	box-shadow: 2px 2px 10px #bb68bb;
+	width: 330px;
+	text-align: center;
+	padding: 15px 30px;
+}
+
+.inline-website {
+	/* ? Почему не могу отцентровать кнопку по центру? */
+	margin: 0 auto;
+	display: inline-block;
+	background-color: #ebe04b;
+	box-shadow: 2px 2px 10px #ebe04b;
+	width: 330px;
+	text-align: center;
+	padding: 15px 30px;
+}
+
+.inline-instagram {
+	display: inline-block;
+	background-color: #6dec73;
+	box-shadow: 2px 2px 10px #6dec73;
+	width: 330px;
+	text-align: center;
+	padding: 15px 30px;
+}
+
+.footer {
+	color: rgb(255, 255, 255);
+	max-width: 100%;
+	background-color: #45dacd;
+	padding: 30px;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 700;
+}
+.footer a {
+	font-style: italic;
+	color: #093331;
+	letter-spacing: 2px;
+}
